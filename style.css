@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #dadada;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 25% 55% 20%;
+}
+
+.top-left {
+  background-color: red;
+}
+.top-right {
+  background-color: yellow;
+}
+
+.center {
+  background-color: green;
+}
+
+.bottom {
+  background-color: crimson;
+}
+
+.right {
+  background-color: aqua;
+  grid-row: 1 / 4;
+  grid-column: 2;
+}
